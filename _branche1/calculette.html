@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/script.js"></script>
+    <title>Calculatrice</title>
+  </head>
+  <body>
+      <h1 id="titre">Calculatrice :</h1>
+
+      <label>Nombre 1 = </label> <input type="number" id="nb1"><br><br>
+      <label>Nombre 2 = </label> <input type="number" id="nb2"><br><br>
+
+      <button id="addition" onclick="addition()"> + </button> <button id="minus" onclick="minus()"> - </button> <button id="times" onclick="times()"> * </button> <button id="divide" onclick="divide()"> / </button><br><br>
+      <button type="reset">Réinitialiser</button><br><br>
+
+      <label for="inputfield"> Résultat = 
+        <input type="text" id="result" value="..." disabled>
+      </label> 
+  </body>
+</html>
